@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image:url('https://img.freepik.com/premium-vector/color-geometric-background-with-triangles-vector-illustration-eps-10_676239-5577.jpg?w=826');
+  background-color:#f9d0a1 ;
+}
+.header{
+  
+  position: static;
+  background-color:  #1d1813;
+  width: 101%;
+  height: 71px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  box-shadow: 15px 5px 30px; 
+}
+button{
+  padding: 11px 30px;
+  background-color:rgb(249, 243, 243);
+  border: none;
+  color: rgb(15, 1, 1);
+  border-radius: 21px;
+  margin: 11px;
+}
+
+#modal {
+display: none;
+position: fixed;
+z-index: 1;
+padding-top: 101px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(13, 0, 0, 0.4);
+}
+.Edit{
+  display: none;
+  position: fixed;
+z-index: 1;
+padding-top: 101px;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: auto;
+background-color: rgba(19, 1, 1, 0.4);
+}
+#modal-content {
+background-color: #74614b;
+margin: auto;
+padding: 20px;
+  border-radius: 15px;
+  width: 41%;
+max-width: 81%;
+}
+
+input{
+  padding: 31px 0;
+  /* margin: 10px; */
+}
+
+#close-btn {
+color: #f0ecec;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+#close-btn:hover,
+#close-btn:focus {
+color: rgb(26, 2, 2);
+text-decoration: none;
+cursor: pointer;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+textarea {
+  
+height: 150px;
+margin-bottom: 10px;
+}
+
+#blog-posts {
+margin: 3% 5%;
+  width: 90%;
+  border-radius: 11px;
+display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.blog-post {
+  width: 100%;
+  background-color:black;
+  color: white;
+padding: 10px;
+border-radius: 5px;
+}
+
+.blog-post h3 {
+margin: 5px 10px;
+margin-bottom: 5px;
+}
+
+.blog-post p {
+margin-top: 5px 10px;
+  font-size: 24px;
+}
+
+.dateTime{
+  text-align: end;
+}
