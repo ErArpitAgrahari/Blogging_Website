@@ -3,13 +3,13 @@
   padding: 0;
 }
 body{
-  background-image:url('https://img.freepik.com/premium-vector/color-geometric-background-with-triangles-vector-illustration-eps-10_676239-5577.jpg?w=826');
+  background-image:url('https://img.freepik.com/free-vector/geometric-background-flat-design_23-2149109010.jpg?w=740&t=st=1677956041~exp=1677956641~hmac=0dcb15826c19bb99a409a2b8df20b6941226fc3c9cb88605b627b33b6785d643');
   background-color:#f9d0a1 ;
 }
 .header{
   
   position: static;
-  background-color:  #1d1813;
+  background-color:  #0c0803;
   width: 101%;
   height: 71px;
   display: flex;
@@ -20,7 +20,7 @@ body{
 }
 button{
   padding: 11px 30px;
-  background-color:rgb(249, 243, 243);
+  background-color:rgb(247, 225, 225);
   border: none;
   color: rgb(15, 1, 1);
   border-radius: 21px;
@@ -37,7 +37,7 @@ top: 0;
 width: 100%;
 height: 100%;
 overflow: auto;
-background-color: rgba(13, 0, 0, 0.4);
+background-color: rgba(14, 1, 1, 0.4);
 }
 .Edit{
   display: none;
@@ -49,10 +49,10 @@ top: 0;
 width: 100%;
 height: 100%;
 overflow: auto;
-background-color: rgba(19, 1, 1, 0.4);
+background-color: rgba(18, 2, 2, 0.4);
 }
 #modal-content {
-background-color: #74614b;
+background-color: #947959;
 margin: auto;
 padding: 20px;
   border-radius: 15px;
@@ -66,7 +66,7 @@ input{
 }
 
 #close-btn {
-color: #f0ecec;
+color: #f3dbdb;
 float: right;
 font-size: 28px;
 font-weight: bold;
